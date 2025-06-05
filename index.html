@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada Universidad Politécnica de Pachuca</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: purple;
+            font-size: 3em;
+            margin: 1px 0;
+            animation: marquee 10s linear infinite;
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        @keyframes marquee {
+            0%   { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        p {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .red-text {
+            color: darkred;
+        }
+        .azure-text {
+            color: darkcyan;
+        }
+        a {
+            font-size: 1em;
+            color: darkred;
+            text-decoration: none;
+            border: 1px solid darkred;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: darkred;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>UNIVERSIDAD POLITÉCNICA DE PACHUCA</h1>
+        <p>Avila Ibarra Andres</p>
+        <p class="red-text">APLICACIONES TELEMATICAS</p>
+        <p class="azure-text">MAYO AGOSTO 2025</p>
+        <p><a href="indice.html">Entrar</a></p>
+    </div>
+</body>
+</html>
